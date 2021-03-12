@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My weather app</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="css/css.css" type="text/css">
+    <link rel="stylesheet" href="css/weather-icons.min.css" type="text/css">
+    <script src="https://kit.fontawesome.com/d7fb38a3be.js" crossorigin="anonymous"></script>
+    <script src="js/dom.js"></script>
+    <script src="js/ajax.js"></script>
+    <script src="js/index.js" defer></script>
+</head>
+
+<body>
+    <div id="container">
+        <nav>
+            <div id="mainnav">
+                <div id="userInfo">
+                    <p id="msgUser"></p>
+                </div>
+                <div class="form" id="form">
+                    <input type="text" id="search" placeholder="city, country">
+                    <button id="btn" type="submit"><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+            <div id="subnav" class="display">
+                <p id="msgHome"></p>
+            </div>
+        </nav>
+        <div id="output"></div>
+    </div>
+</body>
+
+</html>
