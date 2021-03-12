@@ -1,0 +1,22 @@
+{
+  "name": "abschlussprojekt",
+  "version": "1.0.0",
+  "description": "Weather App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon server.js"
+  },
+  "author": "Lin-Ta Hsu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nano": "^9.0.3",
+    "require": "^2.4.20",
+    "weather-js": "^2.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.7"
+  }
+}
